@@ -13,7 +13,7 @@ A Paper 1.21.3+ Minecraft plugin that detects when a player uses a specific goat
 
 ## Installation
 
-1. Download `GoatHornDetector-1.0.jar` from the [releases page](https://github.com/YOUR_USERNAME/GoatHornDetector/releases) or build it yourself (see [Building](#building))
+1. Download `GoatHornDetector-1.0.jar` from the [releases page](https://github.com/Leoaxo098/GoatHornDetector/releases) or build it yourself (see [Building](#building))
 2. Place the JAR file in your Paper server's `plugins/` folder
 3. Restart your server or run `/reload confirm`
 4. Configure the plugin in `plugins/GoatHornDetector/config.yml`
@@ -92,7 +92,7 @@ commands:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/GoatHornDetector.git
+git clone https://github.com/Leoaxo098/GoatHornDetector.git
 cd GoatHornDetector
 
 # Build the plugin
