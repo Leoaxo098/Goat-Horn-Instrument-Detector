@@ -1,0 +1,14 @@
+# GoatHornDetector Configuration
+enabled: true
+
+# The instrument NBT string to detect
+instrument: "minecraft:dieu_cay"
+
+# Commands to execute when the target horn is used
+# Use %player% as placeholder for player name
+commands:
+  - "say %player% used the special goat horn!"
+  - "give %player% diamond 1"
+  - "title %player% title {\"text\":\"Special Horn Used!\",\"color\":\"gold\"}"
+  - "particle heart ~ ~1 ~ 0.5 0.5 0.5 0.1 10"
+  - "playsound minecraft:entity.player.levelup master %player% ~ ~ ~ 1 1"

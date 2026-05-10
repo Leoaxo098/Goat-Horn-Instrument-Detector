@@ -1,0 +1,20 @@
+name: GoatHornDetector
+version: '1.0'
+main: com.example.goathorndetector.GoatHornDetector
+api-version: '1.21'
+author: Leo
+description: Detects specific goat horn usage and executes commands
+
+commands:
+  goathorn:
+    description: GoatHornDetector commands
+    usage: /goathorn reload
+    permission: goathorndetector.use
+
+permissions:
+  goathorndetector.use:
+    description: Basic plugin usage
+    default: op
+  goathorndetector.reload:
+    description: Reload plugin configuration
+    default: op
